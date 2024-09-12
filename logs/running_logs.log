@@ -16,3 +16,25 @@
 [2024-09-06 04:45:16,158: INFO: common: created directory at: artifacts/data_ingestion]
 [2024-09-06 04:45:16,163: INFO: 986331348: Downloading data from https://drive.google.com/file/d/10dnmMZRMhhKhADtONxKALT3xMGHR4f9R/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
 [2024-09-06 04:45:28,577: INFO: 986331348: Downloaded data from https://drive.google.com/file/d/10dnmMZRMhhKhADtONxKALT3xMGHR4f9R/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2024-09-12 16:09:50,916: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-09-12 16:09:50,919: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-12 16:09:50,931: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-12 16:09:50,934: INFO: common: created directory at: artifacts]
+[2024-09-12 16:09:50,935: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-12 16:09:50,935: ERROR: main: DataIngestion() takes no arguments]
+Traceback (most recent call last):
+  File "main.py", line 12, in <module>
+    data_ingestion.main()
+  File "c:\users\hp\kidney-disease-classification-deep-learning-\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 15, in main
+    data_ingestion = DataIngestion(config=data_ingestion_config)
+TypeError: DataIngestion() takes no arguments
+[2024-09-12 16:21:51,508: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-09-12 16:21:51,510: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-12 16:21:51,513: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-12 16:21:51,513: INFO: common: created directory at: artifacts]
+[2024-09-12 16:21:51,515: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-12 16:21:51,516: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/10dnmMZRMhhKhADtONxKALT3xMGHR4f9R/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2024-09-12 16:22:00,291: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/10dnmMZRMhhKhADtONxKALT3xMGHR4f9R/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2024-09-12 16:22:00,995: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
