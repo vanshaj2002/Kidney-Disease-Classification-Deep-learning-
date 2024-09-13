@@ -300,3 +300,52 @@ x==========x]
 [2024-09-13 15:32:56,020: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
 
 x==========x]
+[2024-09-13 16:30:03,274: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-09-13 16:30:03,279: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 16:30:03,285: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 16:30:03,287: INFO: common: created directory at: artifacts]
+[2024-09-13 16:30:03,287: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-13 16:30:03,289: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/10dnmMZRMhhKhADtONxKALT3xMGHR4f9R/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2024-09-13 16:30:59,202: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/10dnmMZRMhhKhADtONxKALT3xMGHR4f9R/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2024-09-13 16:31:00,235: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-09-13 16:34:18,400: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-09-13 16:34:18,405: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 16:34:18,409: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 16:34:18,410: INFO: common: created directory at: artifacts]
+[2024-09-13 16:34:18,411: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-13 16:34:18,411: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/10dnmMZRMhhKhADtONxKALT3xMGHR4f9R/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2024-09-13 16:35:43,828: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/10dnmMZRMhhKhADtONxKALT3xMGHR4f9R/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2024-09-13 16:35:44,809: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-09-13 16:36:06,365: INFO: stage_02_prepare_base_model: *******************]
+[2024-09-13 16:36:06,366: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model started <<<<<<]
+[2024-09-13 16:36:06,371: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 16:36:06,376: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 16:36:06,380: INFO: common: created directory at: artifacts]
+[2024-09-13 16:36:06,380: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-09-13 16:36:07,309: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-09-13 16:36:08,263: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-09-13 16:36:21,154: INFO: stage_03_model_training: *******************]
+[2024-09-13 16:36:21,155: INFO: stage_03_model_training: >>>>>> stage Training started <<<<<<]
+[2024-09-13 16:36:21,160: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 16:36:21,164: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 16:36:21,165: INFO: common: created directory at: artifacts]
+[2024-09-13 16:36:21,166: INFO: common: created directory at: artifacts\training]
+[2024-09-13 16:37:54,140: INFO: stage_03_model_training: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-09-13 16:38:09,286: INFO: stage_04_model_evaluation: *******************]
+[2024-09-13 16:38:09,286: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-09-13 16:38:09,291: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-13 16:38:09,296: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-13 16:38:09,299: INFO: common: created directory at: artifacts]
+[2024-09-13 16:38:23,318: INFO: common: json file saved at: scores.json]
+[2024-09-13 16:38:23,320: INFO: common: json file saved at: scores.json]
+[2024-09-13 16:38:23,320: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
